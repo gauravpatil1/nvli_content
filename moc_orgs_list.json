@@ -1,0 +1,54 @@
+{
+	"list": [
+		{
+			"id": 1,
+			"name": "Allahabad Museum",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Allahabad%20Museum/am%20thumbnail.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Anthropological Survey of India",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Anthropological%20Survey%20of%20India/aasi%20thumbnail.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Archaeological Survey of India",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Archaeological%20Survey%20of%20India/asi%20thumbnail.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Asiatic Society",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Asiatic%20Society/Asiatic-img.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Central Institute of Buddhist Studies",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Central%20Institute%20of%20Buddhist%20Studies/leh%20thumbnail.jpg"
+		},
+		{
+			"id": 6,
+			"name": "Central Institute of Higher Tibetan Studies",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Central%20Institute%20of%20Higher%20Tibetan%20Studies/cc%20thumbnail.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Central Institute of Himalayan Culture Studies",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Central%20Institute%20of%20Himalayan%20Culture%20Studies/him-img.jpg"
+		},
+		{
+			"id": 8,
+			"name": "Central Reference Library",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Central%20Reference%20Library/crl_0.png"
+		},
+		{
+			"id": 9,
+			"name": "Central Secretariat Library",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Central%20Secretariat%20Library/csl-thumbnail.jpg"
+		},
+		{
+			"id": 10,
+			"name": "Centre for Cultural Resources and Training",
+			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Centre%20for%20Cultural%20Resources%20and%20Training/ccrt_0.jpg"
+		}
+	]
+}
