@@ -1,5 +1,4 @@
-{
-	"list": [
+[
 		{
 			"id": 1,
 			"name": "Allahabad Museum",
@@ -50,5 +49,4 @@
 			"name": "Centre for Cultural Resources and Training",
 			"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/moc_organisations/Centre%20for%20Cultural%20Resources%20and%20Training/ccrt_0.jpg"
 		}
-	]
-}
+]
