@@ -3,90 +3,90 @@
 		"id": 1,
 		"name": "Delhi Durbars",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/delhi-darbar.png"
 	},
 	{
 		"id": 2,
 		"name": "The Jagannath Temple - Puri",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/jagarnath.jpg"
 	},
 	{
 		"id": 3,
 		"name": "Lord Padmanabha and his Dasas",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/travancore.png"
 	},
 	{
 		"id": 4,
 		"name": "Karva Chauth",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/choth_0.png"
 	},
 	{
 		"id": 5,
 		"name": "Bahadur Shah Zafar",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/bahadur.png"
 	},
 	{
 		"id": 6,
 		"name": "Koh-i-Noor",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/kohinoor.png"
 	},
 	{
 		"id": 7,
 		"name": "Jallianwala Bagh Massacre",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/jaliwala.png"
 	},
 	{
 		"id": 8,
 		"name": "Delhi: Capital of British India",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/delhi-imp.png"
 	},
 	{
 		"id": 9,
 		"name": "Begum Hazrat Mahal",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/begum.png"
 	},	
 	{
 		"id": 10,
 		"name": "Andaman: The Assasination of Lord Mayo",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/travancore.jpg"
 	},
 	{
 		"id": 11,
 		"name": "Andaman: The Cellular Jail",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/celcularjail.png"
 	},
 	{
 		"id": 12,
 		"name": "Indigo Revolt in Bengal",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/indigio1.jpg"
 	},
 	{
 		"id": 13,
 		"name": "GANDHI’S SATYAGRAHA IN CHAMPARAN",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/champaran.png"
 	},
 	{
 		"id": 14,
 		"name": "Sanchi Monument: Rediscovery and Return",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/sachi.jpg"
 	},
 	{
 		"id": 15,
 		"name": "Simla: The Summer Capital",
 		"short_desc":"",
-		"img_url": ""
+		"img_url": "https://github.com/gauravpatil1/nvli_content/blob/master/stories/shimla.png"
 	}
 ]
