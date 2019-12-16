@@ -106,5 +106,13 @@
 		"name": "Places of God",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/workship_2.jpg",
 		"link_url": "http://collab.nvli.in/"
+	},
+	{
+		"id": 19,
+		"name": "Google",
+		"img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Gull_portrait_ca_usa.jpg/300px-Gull_portrait_ca_usa.jpg",
+		"link_url": "https://google.com"
 	}
+
+
 ]
