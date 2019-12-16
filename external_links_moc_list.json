@@ -100,26 +100,4 @@
 		"name": "Places of Worship",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/workship_2.jpg",
 		"link_url": "http://collab.nvli.in/categories/"
-	},
-	{
-		"id":18,
-		"name": "Test 1",
-		"link_url":"https://google.com"
-	},
-	{
-		"id":18,
-		"name": "Test 2",
-		"link_url":"https://google.com"
 	}
-	,
-	{
-		"id":19,
-		"name": "Test 3",
-		"link_url":"https://google.com"
-	},
-	{
-		"id":20,
-		"name": "Test 4",
-		"link_url":"https://google.com"
-	}
-]
