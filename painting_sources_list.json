@@ -1,118 +1,62 @@
 [
 	{
 		"id": 1,
-		"name": "Jewellery of the Nizams",
+		"name": "Select paintings of Rashtrapati Bhavan",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/nizam.jpg",
 		"views": 2
 	},
 	{
 		"id": 2,
-		"name": "Unesco World Heritage",
+		"name": "Paintings in the Ashoka Hall of Rashtrapati Bhavan",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/unseco.jpg",
 		"views": 3
 	},
 	{
 		"id": 3,
-		"name": "Kalakshetra Foundation",
+		"name": "Company paintings in Rashtrapati Bhavan",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/kala.jpg",
 		"views": 4
 	},
 	{
 		"id": 4,
-		"name": "Abhilekh Patal",
+		"name": "Dhuli Shilpa",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/abhi.jpg",
 		"views": 5
 	},
 	{
 		"id": 5,
-		"name": "National Digital Library of India",
+		"name": "Ganesh Gopal Jogi",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/ndli.jpg",
 		"views": 6
 	},
 	{
 		"id": 6,
-		"name": "Bal Gangadhar Tilak",
+		"name": "Godna Paintings",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/lok.jpg",
 		"views": 6
 	},
 	{
 		"id": 7,
-		"name": "Sardar Vallabhbhai Patel",
+		"name": "Gond Paintings",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/patal.jpg",
 		"views": 6
 	},
 	{
 		"id": 8,
-		"name": "Netaji Subhas Chandra Bose Papers",
+		"name": "S. H. Raza Portfolio",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/nataji.png",
 		"views": 7
 	},
 	{
 		"id": 9,
-		"name": "Nehru Memorial Museum & Library",
+		"name": "Santal Paintings",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/nnml.png",
 		"views": 1
 	},
 	{
 		"id": 10,
-		"name": "National Cultural Audiovisual Archives",
+		"name": "Madhubani Paintings",
 		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/ncaa.png",
 		"views": 1
-	},
-	{
-		"id": 11,
-		"name": "National Mission for Manuscripts",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/fgh.png",
-		"views": 2
-	},
-	{
-		"id": 12,
-		"name": "Museums of India",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/museumofindia.png",
-		"views": 3
-	},
-	{
-		"id": 13,
-		"name": "Vedic Heritage",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/vedic_0.jpg",
-		"views": 3
-	},
-	{
-		"id": 14,
-		"name": "national Mission on Monuments and Antiquities",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/Antiquities.jpg",
-		"views": 4
-	},
-	{
-		"id": 15,
-		"name": "Gandhi 150",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/gandhiff.png",
-		"views": 4
-	},
-	{
-		"id": 16,
-		"name": "Sangam App Link to Download",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/workship.png",
-		"views": 4
-	},
-	{
-		"id": 17,
-		"name": "Places of Worship",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/workship_2.jpg",
-		"views": 4
-	},
-	{
-		"id": 18,
-		"name": "Places of God",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/workship_2.jpg",
-		"views": 4
-	},
-	{
-		"id": 19,
-		"name": "Google",
-		"img_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Gull_portrait_ca_usa.jpg/300px-Gull_portrait_ca_usa.jpg",
-		"views": 3
 	}
-
-
 ]
