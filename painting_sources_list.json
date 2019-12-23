@@ -2,61 +2,61 @@
 	{
 		"id": 1,
 		"name": "Select paintings of Rashtrapati Bhavan",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/nizam.jpg",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/1.jpg",
 		"views": 2
 	},
 	{
 		"id": 2,
 		"name": "Paintings in the Ashoka Hall of Rashtrapati Bhavan",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/unseco.jpg",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/2.jpg",
 		"views": 3
 	},
 	{
 		"id": 3,
 		"name": "Company paintings in Rashtrapati Bhavan",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/kala.jpg",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/3.jpg",
 		"views": 4
 	},
 	{
 		"id": 4,
 		"name": "Dhuli Shilpa",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/abhi.jpg",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/4.jpg",
 		"views": 5
 	},
 	{
 		"id": 5,
 		"name": "Ganesh Gopal Jogi",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/ndli.jpg",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/5.jpg",
 		"views": 6
 	},
 	{
 		"id": 6,
 		"name": "Godna Paintings",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/lok.jpg",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/6.jpg",
 		"views": 6
 	},
 	{
 		"id": 7,
 		"name": "Gond Paintings",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/patal.jpg",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/7.jpg",
 		"views": 6
 	},
 	{
 		"id": 8,
 		"name": "S. H. Raza Portfolio",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/nataji.png",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/8.png",
 		"views": 7
 	},
 	{
 		"id": 9,
 		"name": "Santal Paintings",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/nnml.png",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/9.png",
 		"views": 1
 	},
 	{
 		"id": 10,
 		"name": "Madhubani Paintings",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/external_links_moc/ncaa.png",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/10.png",
 		"views": 1
 	}
 ]
