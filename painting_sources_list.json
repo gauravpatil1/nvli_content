@@ -44,19 +44,19 @@
 	{
 		"id": 8,
 		"name": "S. H. Raza Portfolio",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/8.png",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/8.jpg",
 		"views": 7
 	},
 	{
 		"id": 9,
 		"name": "Santal Paintings",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/9.png",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/9.jpg",
 		"views": 1
 	},
 	{
 		"id": 10,
 		"name": "Madhubani Paintings",
-		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/10.png",
+		"img_url": "https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/paintings_1/10.jpg",
 		"views": 1
 	}
 ]
