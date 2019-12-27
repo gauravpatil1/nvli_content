@@ -1,0 +1,167 @@
+[
+	{
+		"id": 1,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Algoja",
+		"material":"Bamboo",
+		"type":"Aerophone",
+		"state":"Rajasthan",
+		"details":"A set of two equal sized bamboo, beaked flutes. Five finger holes and a fipple hole on each flute. Both the flutes are blown simultaneously by the player. Used by ‘Meo’ community of Alwar, Rajasthan as an accompaniment to their folk and tribal songs."
+	},
+	{
+		"id": 2,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Apang",
+		"material":"Wood, metal, parchment",
+		"type":"Chordophone",
+		"state":"Rajasthan",
+		"details":"A wooden shaft, bolted with a hollow metal cylindrical resonator at one end. The resonator is open on top and covered with skin at the bottom. Only one steel string. Held in one hand. Plucked with index finger. Used by village bards and mendicants."
+	},
+	{
+		"id": 3,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Ba-Bansi",
+		"material":"Bamboo",
+		"type":"Aerophone",
+		"state":"West Bengal",
+		"details":"An about two feet long bamboo tube, with natural node on one side. Blowing hole near the closed end, and six finger holes. Held horizontally. Used in Nakcheng-renie dance."
+	},
+	{
+		"id": 4,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Baghra",
+		"material":"Earthenware, parchment",
+		"type":"Chordophone",
+		"state":"Orissa",
+		"details":"A round earthen pitcher covered with parchment. A gut string is passed through skin. Painted with traditional motifs. Used as an accompaniment to tribal songs"
+	},
+	{
+		"id": 5,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bagliu",
+		"material":"Bamboo, steel, parchment",
+		"type":"Chordophone",
+		"state":"Gujarat",
+		"details":"A monochord drone instrument. A bamboo shaft bolted with a hollow metal resonator, covered with skin at lower end. A single steel string tied to a wooden peg stretched and attached through the skin. Plucked rhythmically with bare finger or plectrum. Used by village bards of Gujarat."
+	},
+	{
+		"id": 6,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bakak Ding Dong",
+		"material":"Bamboo, metal",
+		"type":"Chordophone",
+		"state":"West Bengal",
+		"details":"A bamboo tube with naturally closed ends. Thin bamboo skins are sliced off keeping both the ends intact. Two bamboo bridges are fitted under the strings to create the tension on the strings and are used for pitch adjustments. A thin bamboo square plate connects both the strings just above the sound hole. Played by sticks. Used in ‘Nak-Cheng renie’ dance of West Bengal."
+	},
+	{
+		"id": 7,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bampathyut",
+		"material":"Bamboo",
+		"type":"Aerophone",
+		"state":"Sikkim",
+		"details":"A bird shaped bamboo whistle, upper end open, and the lower end is closed by natural node. While playing, held in hand, the open end placed on the lower lip and blow."
+	},
+	{
+		"id": 8,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Banam",
+		"material":"Gut",
+		"type":"Chordophone",
+		"state":"Bihar",
+		"details":"A monochord instrument of bowed variety of Tribal origin. String made of gut. Used by the Santhal tribe for accompaniment to songs. There are many varieties of Banam."
+	},
+	{
+		"id": 9,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bankia",
+		"material":"Bronze",
+		"type":"Aerophone",
+		"state":"Rajasthan",
+		"details":"A bronze trumpet made in two parts. ‘Bugle’ like tube and a saucer shaped bell with an integrated mouth piece. Used in processions, religious and social ceremonies in Rajasthan and neighboring regions."
+	},
+	{
+		"id": 10,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bans",
+		"material":"Bamboo, thread",
+		"type":"Aerophone",
+		"state":"Madhya Pradesh",
+		"details":"A normal flute used by tribals, made of bamboo. Three finger and one blowing hole - held transversely by both hands. Decorated with colourful thread hangings. Produces a deep bass sound."
+	},
+	{
+		"id": 11,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bansuri",
+		"material":"Wood",
+		"type":"Aerophone",
+		"state":"Rajasthan",
+		"details":"ong wooden cylindrical tube with a break. The other end is open. There is a fipple made just after beak. Six finger holes at the other end in two sets, three each in one set. The flute is played vertically down from one end."
+	},
+	{
+		"id": 12,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bansuri",
+		"material":"Bamboo",
+		"type":"Aerophone",
+		"state":"Bihar",
+		"details":"A bamboo tube with beak shaped blowing hole. Six finger holes and a fipple. Used in folk music and dances. Used by shepherd and cowherd communities of Bihar."
+	},
+	{
+		"id": 13,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bargu",
+		"material":"Bronze",
+		"type":"Aerophone",
+		"state":"Rajasthan",
+		"details":"A bronze trumpet made in two parts. ‘S’ shaped tube with a cup shaped bell and an integrated mouthpiece. Used by ‘Sargara’ community of Rajasthan."
+	},
+	{
+		"id": 14,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bhajan Chakklu",
+		"material":"Wood, brass",
+		"type":"Idiophone",
+		"state":"Andhra Pradesh",
+		"details":"A pair of wooden clappers, with square ends and open slits, in which thin brass plates are attached. Clapped together by one hand. Used for rhythmic accompaniment with devotional songs."
+	},
+	{
+		"id": 15,
+		"img_url":"https://raw.githubusercontent.com/gauravpatil1/nvli_content/master/musical/1.jpg",
+		"views":"10",
+		"likes":"15",
+		"name": "Bhajan Tambura",
+		"material":"Jackwood, steel, celluloid",
+		"type":"Chordophone",
+		"state":"Tamil Nadu",
+		"details":"A drone instrument, made of Jack wood. Hemispherical resonator, covered with wooden plank, long and narrow shaft ending in a peg box, two bridges and four steel strings. Decorated with celluloid strips. Strings are plucked and strummed by right hand fingers, used in devotional and traditional musical forms."
+	}
+]
