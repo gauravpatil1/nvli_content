@@ -1,0 +1,2516 @@
+{
+	"info": {
+		"_postman_id": "f2a354c8-180c-4741-9390-6e9db5edf144",
+		"name": "Indian Culture APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Home Page Requests",
+			"item": [
+				{
+					"name": "Slider Images",
+					"item": [
+						{
+							"name": "Slider Images List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/home-page-slider",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"home-page-slider"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Slider Images List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/home-page-slider",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"home-page-slider"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "External Links",
+					"item": [
+						{
+							"name": "External Links List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/externalLinks",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"externalLinks"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "External Links List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/externalLinks",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"externalLinks"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Did You Know",
+					"item": [
+						{
+							"name": "Did You Know Details in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/did_you_know",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"did_you_know"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Did You Know Details in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/did_you_know",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"did_you_know"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Full Search",
+					"item": [
+						{
+							"name": "Full Search List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/indian-culture-repositories?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"indian-culture-repositories"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Full Search List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/indian-culture-repositories?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"indian-culture-repositories"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Category Lists",
+			"item": [
+				{
+					"name": "Audio",
+					"item": [
+						{
+							"name": "Audio List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/audios?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"audios"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Audio List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/audios?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"audios"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Snippet",
+					"item": [
+						{
+							"name": "Snippet List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/snippets?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"snippets"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Snippet List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/snippets?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"snippets"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Research Papers",
+					"item": [
+						{
+							"name": "Research Papers List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/research-papers?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"research-papers"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Research Papers List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/research-papers?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"research-papers"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Rare Books",
+					"item": [
+						{
+							"name": "Rare Books List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/rarebooks?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"rarebooks"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Rare Books List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/rarebooks?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"rarebooks"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "E-Books",
+					"item": [
+						{
+							"name": "E-Books List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/ebooks?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"ebooks"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "E-Books List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/ebooks?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"ebooks"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Manuscripts",
+					"item": [
+						{
+							"name": "Manuscripts List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/manuscripts?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"manuscripts"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Manuscripts List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/manuscripts?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"manuscripts"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Museums Collection",
+					"item": [
+						{
+							"name": "Museums Collection List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/museums-collection?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"museums-collection"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Museums Collection List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/museums-collection?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"museums-collection"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Archives",
+					"item": [
+						{
+							"name": "Archives List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/archive?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"archive"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Archives List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/archive?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"archive"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Photo Archives",
+					"item": [
+						{
+							"name": "Photo Archives List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/photo-archive?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"photo-archive"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Photo Archives List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/photo-archive?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"photo-archive"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Gazetteers",
+					"item": [
+						{
+							"name": "Gazetteers List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/gazetteers?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"gazetteers"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Gazetteers List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/gazetteers?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"gazetteers"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Union Catalogue",
+					"item": [
+						{
+							"name": "Union Catalogue List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/union-catalogue?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"union-catalogue"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Union Catalogue List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/union-catalogue?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"union-catalogue"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Indian National Bibliography",
+					"item": [
+						{
+							"name": "Indian National Bibliography List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/catalogueinb?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"catalogueinb"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Indian National Bibliography List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/catalogueinb?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"catalogueinb"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Videos",
+					"item": [
+						{
+							"name": "Videos List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/videos?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"videos"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Videos List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/videos?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"videos"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Images",
+					"item": [
+						{
+							"name": "Images List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/images?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"images"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Images List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/images?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"images"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Reports and Proceedings",
+					"item": [
+						{
+							"name": "Reports and Proceedings List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/reports-and-proceedings?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"reports-and-proceedings"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reports and Proceedings List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/reports-and-proceedings?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"reports-and-proceedings"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Other Collections",
+					"item": [
+						{
+							"name": "Other Collections List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/other-collections?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"other-collections"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Other Collections List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/other-collections?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"other-collections"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Stories",
+					"item": [
+						{
+							"name": "Stories List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/stories?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"stories"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Stories List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/stories?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"stories"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "MoC Organisations",
+					"item": [
+						{
+							"name": "MoC Organisations List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/moc-organisations?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"moc-organisations"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "MoC Organisations List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/moc-organisations?page=0&search_api_fulltext=india",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"moc-organisations"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "india",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Museum Paintings",
+					"item": [
+						{
+							"name": "Museum Paintings List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/painting-collections/museum-paintings?page=0&search_api_fulltext=nayika",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"painting-collections",
+										"museum-paintings"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "nayika",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Museum Paintings List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/painting-collections/museum-paintings?page=0&search_api_fulltext=nayika",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"painting-collections",
+										"museum-paintings"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										},
+										{
+											"key": "search_api_fulltext",
+											"value": "nayika",
+											"description": "A string describing text to be searched in that list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Painting Portfolios",
+					"item": [
+						{
+							"name": "Painting Portfolios List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/paintings?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"paintings"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Painting Portfolios List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/paintings?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"paintings"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "UNESCO",
+					"item": [
+						{
+							"name": "UNESCO List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/unesco?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"unesco"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UNESCO List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/unesco?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"unesco"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UNESCO SubCategory List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/unesco/heritage-site?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"unesco",
+										"heritage-site"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UNESCO SubCategory List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/unesco/heritage-site?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"unesco",
+										"heritage-site"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Food and Culture",
+					"item": [
+						{
+							"name": "Food and Culture List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/food-and-culture?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"food-and-culture"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Food and Culture List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/food-and-culture?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"food-and-culture"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Food and Culture SubCategory List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/food-and-culture/spices-and-herbs?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"food-and-culture",
+										"spices-and-herbs"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Food and Culture SubCategory List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/food-and-culture/spices-and-herbs?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"food-and-culture",
+										"spices-and-herbs"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Musical Instruments of India",
+					"item": [
+						{
+							"name": "Musical Instruments of India List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/musical-instruments?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"musical-instruments"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Musical Instruments of India List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/musical-instruments?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"musical-instruments"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Musical Instruments of India SubCategory List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/musical-instruments/avanaddha-vadya?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"musical-instruments",
+										"avanaddha-vadya"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Musical Instruments of India SubCategory List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/musical-instruments/avanaddha-vadya?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"musical-instruments",
+										"avanaddha-vadya"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Intangible Cultural Heritage",
+					"item": [
+						{
+							"name": "Intangible Cultural Heritage List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/intangible-cultural-heritage?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"intangible-cultural-heritage"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Intangible Cultural Heritage List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/intangible-cultural-heritage?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"intangible-cultural-heritage"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Intangible Cultural Heritage SubCategory List in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest-v1/intangible-cultural-heritage/performing-arts?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest-v1",
+										"intangible-cultural-heritage",
+										"performing-arts"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Intangible Cultural Heritage SubCategory List in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest-v1/intangible-cultural-heritage/performing-arts?page=0",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest-v1",
+										"intangible-cultural-heritage",
+										"performing-arts"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0",
+											"description": "An integer describing page number to fetch a page in paginated list"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Other APIs",
+					"item": [
+						{
+							"name": "Search Result Details in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/search-result/2544953",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"search-result",
+										"2544953"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search Result Details in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/search-result/2544953",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"search-result",
+										"2544953"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Catalogue Details in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/bibliodata/1540833",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"bibliodata",
+										"1540833"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Catalogue Details in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/bibliodata/1540833",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"bibliodata",
+										"1540833"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Painting Details in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/indianculture-paintings/2541490",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"indianculture-paintings",
+										"2541490"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Painting Details in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/indianculture-paintings/2541490",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"indianculture-paintings",
+										"2541490"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UNESCO Details in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/unesco-records/2489638",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"unesco-records",
+										"2489638"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UNESCO Details in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/unesco-records/2489638",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"unesco-records",
+										"2489638"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Musical Details in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/musical-instruments-records/2687930",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"musical-instruments-records",
+										"2687930"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Musical Details in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/musical-instruments-records/2687930",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"musical-instruments-records",
+										"2687930"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Intangible Cultural Heritage Details in English",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/rest/ich-records/2688746",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"rest",
+										"ich-records",
+										"2688746"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Intangible Cultural Heritage Details in Hindi",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://indianculture.gov.in/hi/rest/ich-records/2688746",
+									"protocol": "https",
+									"host": [
+										"indianculture",
+										"gov",
+										"in"
+									],
+									"path": [
+										"hi",
+										"rest",
+										"ich-records",
+										"2688746"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
