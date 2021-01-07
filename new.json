@@ -1,0 +1,2418 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "Indian Culture APIs",
+    "contact": {}
+  },
+  "host": "indianculture.gov.in",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/rest/home-page-slider": {
+      "get": {
+        "summary": "Slider Images List in English",
+        "tags": [
+          "Slider Images"
+        ],
+        "operationId": "SliderImagesListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/home-page-slider": {
+      "get": {
+        "summary": "Slider Images List in Hindi",
+        "tags": [
+          "Slider Images"
+        ],
+        "operationId": "SliderImagesListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/externalLinks": {
+      "get": {
+        "summary": "External Links List in English",
+        "tags": [
+          "External Links"
+        ],
+        "operationId": "ExternalLinksListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/externalLinks": {
+      "get": {
+        "summary": "External Links List in Hindi",
+        "tags": [
+          "External Links"
+        ],
+        "operationId": "ExternalLinksListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/did_you_know": {
+      "get": {
+        "summary": "Did You Know Details in English",
+        "tags": [
+          "Did You Know"
+        ],
+        "operationId": "DidYouKnowDetailsinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/did_you_know": {
+      "get": {
+        "summary": "Did You Know Details in Hindi",
+        "tags": [
+          "Did You Know"
+        ],
+        "operationId": "DidYouKnowDetailsinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/indian-culture-repositories": {
+      "get": {
+        "summary": "Full Search List in English",
+        "tags": [
+          "Full Search"
+        ],
+        "operationId": "FullSearchListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/indian-culture-repositories": {
+      "get": {
+        "summary": "Full Search List in Hindi",
+        "tags": [
+          "Full Search"
+        ],
+        "operationId": "FullSearchListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/audios": {
+      "get": {
+        "summary": "Audio List in English",
+        "tags": [
+          "Audio"
+        ],
+        "operationId": "AudioListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/audios": {
+      "get": {
+        "summary": "Audio List in Hindi",
+        "tags": [
+          "Audio"
+        ],
+        "operationId": "AudioListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/snippets": {
+      "get": {
+        "summary": "Snippet List in English",
+        "tags": [
+          "Snippet"
+        ],
+        "operationId": "SnippetListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/snippets": {
+      "get": {
+        "summary": "Snippet List in Hindi",
+        "tags": [
+          "Snippet"
+        ],
+        "operationId": "SnippetListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/research-papers": {
+      "get": {
+        "summary": "Research Papers List in English",
+        "tags": [
+          "Research Papers"
+        ],
+        "operationId": "ResearchPapersListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/research-papers": {
+      "get": {
+        "summary": "Research Papers List in Hindi",
+        "tags": [
+          "Research Papers"
+        ],
+        "operationId": "ResearchPapersListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/rarebooks": {
+      "get": {
+        "summary": "Rare Books List in English",
+        "tags": [
+          "Rare Books"
+        ],
+        "operationId": "RareBooksListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/rarebooks": {
+      "get": {
+        "summary": "Rare Books List in Hindi",
+        "tags": [
+          "Rare Books"
+        ],
+        "operationId": "RareBooksListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/ebooks": {
+      "get": {
+        "summary": "E-Books List in English",
+        "tags": [
+          "E-Books"
+        ],
+        "operationId": "E-BooksListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/ebooks": {
+      "get": {
+        "summary": "E-Books List in Hindi",
+        "tags": [
+          "E-Books"
+        ],
+        "operationId": "E-BooksListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/manuscripts": {
+      "get": {
+        "summary": "Manuscripts List in English",
+        "tags": [
+          "Manuscripts"
+        ],
+        "operationId": "ManuscriptsListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/manuscripts": {
+      "get": {
+        "summary": "Manuscripts List in Hindi",
+        "tags": [
+          "Manuscripts"
+        ],
+        "operationId": "ManuscriptsListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/museums-collection": {
+      "get": {
+        "summary": "Museums Collection List in English",
+        "tags": [
+          "Museums Collection"
+        ],
+        "operationId": "MuseumsCollectionListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/museums-collection": {
+      "get": {
+        "summary": "Museums Collection List in Hindi",
+        "tags": [
+          "Museums Collection"
+        ],
+        "operationId": "MuseumsCollectionListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/archive": {
+      "get": {
+        "summary": "Archives List in English",
+        "tags": [
+          "Archives"
+        ],
+        "operationId": "ArchivesListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/archive": {
+      "get": {
+        "summary": "Archives List in Hindi",
+        "tags": [
+          "Archives"
+        ],
+        "operationId": "ArchivesListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/photo-archive": {
+      "get": {
+        "summary": "Photo Archives List in English",
+        "tags": [
+          "Photo Archives"
+        ],
+        "operationId": "PhotoArchivesListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/photo-archive": {
+      "get": {
+        "summary": "Photo Archives List in Hindi",
+        "tags": [
+          "Photo Archives"
+        ],
+        "operationId": "PhotoArchivesListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/gazetteers": {
+      "get": {
+        "summary": "Gazetteers List in English",
+        "tags": [
+          "Gazetteers"
+        ],
+        "operationId": "GazetteersListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/gazetteers": {
+      "get": {
+        "summary": "Gazetteers List in Hindi",
+        "tags": [
+          "Gazetteers"
+        ],
+        "operationId": "GazetteersListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/union-catalogue": {
+      "get": {
+        "summary": "Union Catalogue List in English",
+        "tags": [
+          "Union Catalogue"
+        ],
+        "operationId": "UnionCatalogueListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/union-catalogue": {
+      "get": {
+        "summary": "Union Catalogue List in Hindi",
+        "tags": [
+          "Union Catalogue"
+        ],
+        "operationId": "UnionCatalogueListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/catalogueinb": {
+      "get": {
+        "summary": "Indian National Bibliography List in English",
+        "tags": [
+          "Indian National Bibliography"
+        ],
+        "operationId": "IndianNationalBibliographyListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/catalogueinb": {
+      "get": {
+        "summary": "Indian National Bibliography List in Hindi",
+        "tags": [
+          "Indian National Bibliography"
+        ],
+        "operationId": "IndianNationalBibliographyListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/videos": {
+      "get": {
+        "summary": "Videos List in English",
+        "tags": [
+          "Videos"
+        ],
+        "operationId": "VideosListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/videos": {
+      "get": {
+        "summary": "Videos List in Hindi",
+        "tags": [
+          "Videos"
+        ],
+        "operationId": "VideosListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/images": {
+      "get": {
+        "summary": "Images List in English",
+        "tags": [
+          "Images"
+        ],
+        "operationId": "ImagesListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/images": {
+      "get": {
+        "summary": "Images List in Hindi",
+        "tags": [
+          "Images"
+        ],
+        "operationId": "ImagesListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/reports-and-proceedings": {
+      "get": {
+        "summary": "Reports and Proceedings List in English",
+        "tags": [
+          "Reports and Proceedings"
+        ],
+        "operationId": "ReportsandProceedingsListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/reports-and-proceedings": {
+      "get": {
+        "summary": "Reports and Proceedings List in Hindi",
+        "tags": [
+          "Reports and Proceedings"
+        ],
+        "operationId": "ReportsandProceedingsListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/other-collections": {
+      "get": {
+        "summary": "Other Collections List in English",
+        "tags": [
+          "Other Collections"
+        ],
+        "operationId": "OtherCollectionsListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/other-collections": {
+      "get": {
+        "summary": "Other Collections List in Hindi",
+        "tags": [
+          "Other Collections"
+        ],
+        "operationId": "OtherCollectionsListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/stories": {
+      "get": {
+        "summary": "Stories List in English",
+        "tags": [
+          "Stories"
+        ],
+        "operationId": "StoriesListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/stories": {
+      "get": {
+        "summary": "Stories List in Hindi",
+        "tags": [
+          "Stories"
+        ],
+        "operationId": "StoriesListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/moc-organisations": {
+      "get": {
+        "summary": "MoC Organisations List in English",
+        "tags": [
+          "MoC Organisations"
+        ],
+        "operationId": "MoCOrganisationsListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/moc-organisations": {
+      "get": {
+        "summary": "MoC Organisations List in Hindi",
+        "tags": [
+          "MoC Organisations"
+        ],
+        "operationId": "MoCOrganisationsListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/painting-collections/museum-paintings": {
+      "get": {
+        "summary": "Museum Paintings List in English",
+        "tags": [
+          "Museum Paintings"
+        ],
+        "operationId": "MuseumPaintingsListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/painting-collections/museum-paintings": {
+      "get": {
+        "summary": "Museum Paintings List in Hindi",
+        "tags": [
+          "Museum Paintings"
+        ],
+        "operationId": "MuseumPaintingsListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          },
+          {
+            "name": "search_api_fulltext",
+            "in": "query",
+            "required": true,
+            "type": "string",
+            "description": "A string describing text to be searched in that list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/paintings": {
+      "get": {
+        "summary": "Painting Portfolios List in English",
+        "tags": [
+          "Painting Portfolios"
+        ],
+        "operationId": "PaintingPortfoliosListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/paintings": {
+      "get": {
+        "summary": "Painting Portfolios List in Hindi",
+        "tags": [
+          "Painting Portfolios"
+        ],
+        "operationId": "PaintingPortfoliosListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/unesco": {
+      "get": {
+        "summary": "UNESCO List in English",
+        "tags": [
+          "UNESCO"
+        ],
+        "operationId": "UNESCOListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/unesco": {
+      "get": {
+        "summary": "UNESCO List in Hindi",
+        "tags": [
+          "UNESCO"
+        ],
+        "operationId": "UNESCOListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/unesco/heritage-site": {
+      "get": {
+        "summary": "UNESCO SubCategory List in English",
+        "tags": [
+          "UNESCO"
+        ],
+        "operationId": "UNESCOSubCategoryListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/unesco/heritage-site": {
+      "get": {
+        "summary": "UNESCO SubCategory List in Hindi",
+        "tags": [
+          "UNESCO"
+        ],
+        "operationId": "UNESCOSubCategoryListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/food-and-culture": {
+      "get": {
+        "summary": "Food and Culture List in English",
+        "tags": [
+          "Food and Culture"
+        ],
+        "operationId": "FoodandCultureListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/food-and-culture": {
+      "get": {
+        "summary": "Food and Culture List in Hindi",
+        "tags": [
+          "Food and Culture"
+        ],
+        "operationId": "FoodandCultureListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/food-and-culture/spices-and-herbs": {
+      "get": {
+        "summary": "Food and Culture SubCategory List in English",
+        "tags": [
+          "Food and Culture"
+        ],
+        "operationId": "FoodandCultureSubCategoryListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/food-and-culture/spices-and-herbs": {
+      "get": {
+        "summary": "Food and Culture SubCategory List in Hindi",
+        "tags": [
+          "Food and Culture"
+        ],
+        "operationId": "FoodandCultureSubCategoryListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/musical-instruments": {
+      "get": {
+        "summary": "Musical Instruments of India List in English",
+        "tags": [
+          "Musical Instruments of India"
+        ],
+        "operationId": "MusicalInstrumentsofIndiaListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/musical-instruments": {
+      "get": {
+        "summary": "Musical Instruments of India List in Hindi",
+        "tags": [
+          "Musical Instruments of India"
+        ],
+        "operationId": "MusicalInstrumentsofIndiaListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/musical-instruments/avanaddha-vadya": {
+      "get": {
+        "summary": "Musical Instruments of India SubCategory List in English",
+        "tags": [
+          "Musical Instruments of India"
+        ],
+        "operationId": "MusicalInstrumentsofIndiaSubCategoryListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/musical-instruments/avanaddha-vadya": {
+      "get": {
+        "summary": "Musical Instruments of India SubCategory List in Hindi",
+        "tags": [
+          "Musical Instruments of India"
+        ],
+        "operationId": "MusicalInstrumentsofIndiaSubCategoryListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/intangible-cultural-heritage": {
+      "get": {
+        "summary": "Intangible Cultural Heritage List in English",
+        "tags": [
+          "Intangible Cultural Heritage"
+        ],
+        "operationId": "IntangibleCulturalHeritageListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/intangible-cultural-heritage": {
+      "get": {
+        "summary": "Intangible Cultural Heritage List in Hindi",
+        "tags": [
+          "Intangible Cultural Heritage"
+        ],
+        "operationId": "IntangibleCulturalHeritageListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest-v1/intangible-cultural-heritage/performing-arts": {
+      "get": {
+        "summary": "Intangible Cultural Heritage SubCategory List in English",
+        "tags": [
+          "Intangible Cultural Heritage"
+        ],
+        "operationId": "IntangibleCulturalHeritageSubCategoryListinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest-v1/intangible-cultural-heritage/performing-arts": {
+      "get": {
+        "summary": "Intangible Cultural Heritage SubCategory List in Hindi",
+        "tags": [
+          "Intangible Cultural Heritage"
+        ],
+        "operationId": "IntangibleCulturalHeritageSubCategoryListinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "description": "An integer describing page number to fetch a page in paginated list"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/search-result/2544953": {
+      "get": {
+        "summary": "Search Result Details in English",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "SearchResultDetailsinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/search-result/2544953": {
+      "get": {
+        "summary": "Search Result Details in Hindi",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "SearchResultDetailsinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/bibliodata/1540833": {
+      "get": {
+        "summary": "Catalogue Details in English",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "CatalogueDetailsinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/bibliodata/1540833": {
+      "get": {
+        "summary": "Catalogue Details in Hindi",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "CatalogueDetailsinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/indianculture-paintings/2541490": {
+      "get": {
+        "summary": "Painting Details in English",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "PaintingDetailsinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/indianculture-paintings/2541490": {
+      "get": {
+        "summary": "Painting Details in Hindi",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "PaintingDetailsinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/unesco-records/2489638": {
+      "get": {
+        "summary": "UNESCO Details in English",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "UNESCODetailsinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/unesco-records/2489638": {
+      "get": {
+        "summary": "UNESCO Details in Hindi",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "UNESCODetailsinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/musical-instruments-records/2687930": {
+      "get": {
+        "summary": "Musical Details in English",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "MusicalDetailsinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/musical-instruments-records/2687930": {
+      "get": {
+        "summary": "Musical Details in Hindi",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "MusicalDetailsinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/rest/ich-records/2688746": {
+      "get": {
+        "summary": "Intangible Cultural Heritage Details in English",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "IntangibleCulturalHeritageDetailsinEnglish",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/hi/rest/ich-records/2688746": {
+      "get": {
+        "summary": "Intangible Cultural Heritage Details in Hindi",
+        "tags": [
+          "Other APIs"
+        ],
+        "operationId": "IntangibleCulturalHeritageDetailsinHindi",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Slider Images"
+    },
+    {
+      "name": "External Links"
+    },
+    {
+      "name": "Did You Know"
+    },
+    {
+      "name": "Full Search"
+    },
+    {
+      "name": "Audio"
+    },
+    {
+      "name": "Snippet"
+    },
+    {
+      "name": "Research Papers"
+    },
+    {
+      "name": "Rare Books"
+    },
+    {
+      "name": "E-Books"
+    },
+    {
+      "name": "Manuscripts"
+    },
+    {
+      "name": "Museums Collection"
+    },
+    {
+      "name": "Archives"
+    },
+    {
+      "name": "Photo Archives"
+    },
+    {
+      "name": "Gazetteers"
+    },
+    {
+      "name": "Union Catalogue"
+    },
+    {
+      "name": "Indian National Bibliography"
+    },
+    {
+      "name": "Videos"
+    },
+    {
+      "name": "Images"
+    },
+    {
+      "name": "Reports and Proceedings"
+    },
+    {
+      "name": "Other Collections"
+    },
+    {
+      "name": "Stories"
+    },
+    {
+      "name": "MoC Organisations"
+    },
+    {
+      "name": "Museum Paintings"
+    },
+    {
+      "name": "Painting Portfolios"
+    },
+    {
+      "name": "UNESCO"
+    },
+    {
+      "name": "Food and Culture"
+    },
+    {
+      "name": "Musical Instruments of India"
+    },
+    {
+      "name": "Intangible Cultural Heritage"
+    },
+    {
+      "name": "Other APIs"
+    }
+  ]
+}
