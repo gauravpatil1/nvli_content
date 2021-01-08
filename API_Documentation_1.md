@@ -1,17 +1,3 @@
----
-title: Indian Culture APIs v1.0
-language_tabs:
-  - http: HTTP
-language_clients:
-  - http: ""
-toc_footers: []
-includes: []
-search: true
-highlight_theme: darkula
-headingLevel: 2
-
----
-
 <!-- Generator: Widdershins v4.0.1 -->
 
 <h1 id="indian-culture-apis">Indian Culture APIs v1.0</h1>
@@ -41,7 +27,8 @@ Accept: application/json
 
 *Slider Images List in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -191,6 +178,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="sliderimageslistinenglish-responses">Responses</h3>
 
@@ -260,7 +248,8 @@ Accept: application/json
 
 *Slider Images List in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -402,6 +391,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="sliderimageslistinhindi-responses">Responses</h3>
 
@@ -473,7 +463,8 @@ Accept: application/json
 
 *External Links List in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -557,6 +548,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="externallinkslistinenglish-responses">Responses</h3>
 
@@ -628,7 +620,8 @@ Accept: application/json
 
 *External Links List in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -694,6 +687,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="externallinkslistinhindi-responses">Responses</h3>
 
@@ -767,7 +761,8 @@ Accept: application/json
 
 *Did You Know Details in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -786,6 +781,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="didyouknowdetailsinenglish-responses">Responses</h3>
 
@@ -844,7 +840,8 @@ Accept: application/json
 
 *Did You Know Details in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -863,6 +860,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="didyouknowdetailsinhindi-responses">Responses</h3>
 
@@ -930,7 +928,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -2594,6 +2593,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="fullsearchlistinenglish-responses">Responses</h3>
 
@@ -2659,7 +2659,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -4323,6 +4324,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="fullsearchlistinhindi-responses">Responses</h3>
 
@@ -4390,7 +4392,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -4546,6 +4549,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="audiolistinenglish-responses">Responses</h3>
 
@@ -4611,7 +4615,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -4767,6 +4772,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="audiolistinhindi-responses">Responses</h3>
 
@@ -4833,7 +4839,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -4915,6 +4922,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="snippetlistinenglish-responses">Responses</h3>
 
@@ -4979,7 +4987,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -5061,6 +5070,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="snippetlistinhindi-responses">Responses</h3>
 
@@ -5128,7 +5138,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -5297,6 +5308,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="researchpaperslistinenglish-responses">Responses</h3>
 
@@ -5362,7 +5374,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -5531,6 +5544,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="researchpaperslistinhindi-responses">Responses</h3>
 
@@ -5598,7 +5612,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -6601,6 +6616,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="rarebookslistinenglish-responses">Responses</h3>
 
@@ -6666,7 +6682,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -7669,6 +7686,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="rarebookslistinhindi-responses">Responses</h3>
 
@@ -7736,7 +7754,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -8753,6 +8772,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="e-bookslistinenglish-responses">Responses</h3>
 
@@ -8818,7 +8838,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -9835,6 +9856,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="e-bookslistinhindi-responses">Responses</h3>
 
@@ -9902,7 +9924,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -10891,6 +10914,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="manuscriptslistinenglish-responses">Responses</h3>
 
@@ -10956,7 +10980,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -11945,6 +11970,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="manuscriptslistinhindi-responses">Responses</h3>
 
@@ -12012,7 +12038,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -12541,6 +12568,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="museumscollectionlistinenglish-responses">Responses</h3>
 
@@ -12606,7 +12634,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -13135,6 +13164,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="museumscollectionlistinhindi-responses">Responses</h3>
 
@@ -13202,7 +13232,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -14317,6 +14348,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="archiveslistinenglish-responses">Responses</h3>
 
@@ -14382,7 +14414,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -15497,6 +15530,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="archiveslistinhindi-responses">Responses</h3>
 
@@ -15564,7 +15598,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -16553,6 +16588,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="photoarchiveslistinenglish-responses">Responses</h3>
 
@@ -16618,7 +16654,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -17607,6 +17644,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="photoarchiveslistinhindi-responses">Responses</h3>
 
@@ -17674,7 +17712,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -18810,6 +18849,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="gazetteerslistinenglish-responses">Responses</h3>
 
@@ -18875,7 +18915,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -20011,6 +20052,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="gazetteerslistinhindi-responses">Responses</h3>
 
@@ -20078,7 +20120,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -20223,6 +20266,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="unioncataloguelistinenglish-responses">Responses</h3>
 
@@ -20288,7 +20332,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -20433,6 +20478,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="unioncataloguelistinhindi-responses">Responses</h3>
 
@@ -20500,7 +20546,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -20645,6 +20692,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="indiannationalbibliographylistinenglish-responses">Responses</h3>
 
@@ -20710,7 +20758,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -20855,6 +20904,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="indiannationalbibliographylistinhindi-responses">Responses</h3>
 
@@ -20922,7 +20972,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -21932,6 +21983,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="videoslistinenglish-responses">Responses</h3>
 
@@ -21997,7 +22049,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -23007,6 +23060,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="videoslistinhindi-responses">Responses</h3>
 
@@ -23074,7 +23128,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -23243,6 +23298,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="imageslistinenglish-responses">Responses</h3>
 
@@ -23308,7 +23364,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -23477,6 +23534,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="imageslistinhindi-responses">Responses</h3>
 
@@ -23544,7 +23602,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -24798,6 +24857,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="reportsandproceedingslistinenglish-responses">Responses</h3>
 
@@ -24863,7 +24923,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -26117,6 +26178,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="reportsandproceedingslistinhindi-responses">Responses</h3>
 
@@ -26184,7 +26246,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -27235,6 +27298,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="othercollectionslistinenglish-responses">Responses</h3>
 
@@ -27300,7 +27364,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -28351,6 +28416,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="othercollectionslistinhindi-responses">Responses</h3>
 
@@ -28418,7 +28484,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -28459,6 +28526,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="storieslistinenglish-responses">Responses</h3>
 
@@ -28524,7 +28592,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -28559,6 +28628,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="storieslistinhindi-responses">Responses</h3>
 
@@ -28626,7 +28696,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -28754,6 +28825,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="mocorganisationslistinenglish-responses">Responses</h3>
 
@@ -28819,7 +28891,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -28847,6 +28920,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="mocorganisationslistinhindi-responses">Responses</h3>
 
@@ -28914,7 +28988,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -29141,6 +29216,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="museumpaintingslistinenglish-responses">Responses</h3>
 
@@ -29206,7 +29282,8 @@ Accept: application/json
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 |search_api_fulltext|query|string|true|A string describing text to be searched in that list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -29433,6 +29510,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="museumpaintingslistinhindi-responses">Responses</h3>
 
@@ -29499,7 +29577,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -29614,6 +29693,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="paintingportfolioslistinenglish-responses">Responses</h3>
 
@@ -29678,7 +29758,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -29793,6 +29874,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="paintingportfolioslistinhindi-responses">Responses</h3>
 
@@ -29859,7 +29941,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -29895,6 +29978,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="unescolistinenglish-responses">Responses</h3>
 
@@ -29972,7 +30056,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -30008,6 +30093,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="unescolistinhindi-responses">Responses</h3>
 
@@ -30085,7 +30171,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -30182,6 +30269,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="unescosubcategorylistinenglish-responses">Responses</h3>
 
@@ -30246,7 +30334,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -30343,6 +30432,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="unescosubcategorylistinhindi-responses">Responses</h3>
 
@@ -30409,7 +30499,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -30454,6 +30545,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="foodandculturelistinenglish-responses">Responses</h3>
 
@@ -30518,7 +30610,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -30563,6 +30656,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="foodandculturelistinhindi-responses">Responses</h3>
 
@@ -30627,7 +30721,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -30740,6 +30835,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="foodandculturesubcategorylistinenglish-responses">Responses</h3>
 
@@ -30804,7 +30900,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -30887,6 +30984,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="foodandculturesubcategorylistinhindi-responses">Responses</h3>
 
@@ -30953,7 +31051,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -30997,6 +31096,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="musicalinstrumentsofindialistinenglish-responses">Responses</h3>
 
@@ -31061,7 +31161,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -31105,6 +31206,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="musicalinstrumentsofindialistinhindi-responses">Responses</h3>
 
@@ -31169,7 +31271,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -31266,6 +31369,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="musicalinstrumentsofindiasubcategorylistinenglish-responses">Responses</h3>
 
@@ -31330,7 +31434,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -31427,6 +31532,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="musicalinstrumentsofindiasubcategorylistinhindi-responses">Responses</h3>
 
@@ -31493,7 +31599,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -31532,6 +31639,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="intangibleculturalheritagelistinenglish-responses">Responses</h3>
 
@@ -31596,7 +31704,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -31635,6 +31744,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="intangibleculturalheritagelistinhindi-responses">Responses</h3>
 
@@ -31699,7 +31809,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -31828,6 +31939,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="intangibleculturalheritagesubcategorylistinenglish-responses">Responses</h3>
 
@@ -31892,7 +32004,8 @@ Accept: application/json
 |---|---|---|---|---|
 |page|query|integer(int32)|true|An integer describing page number to fetch a page in paginated list|
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32021,6 +32134,7 @@ Accept: application/json
   }
 }
 ```
+</details>
 
 <h3 id="intangibleculturalheritagesubcategorylistinhindi-responses">Responses</h3>
 
@@ -32081,7 +32195,8 @@ Accept: application/json
 
 *Search Result Details in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32169,6 +32284,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="searchresultdetailsinenglish-responses">Responses</h3>
 
@@ -32253,7 +32369,8 @@ Accept: application/json
 
 *Catalogue Details in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32324,6 +32441,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="cataloguedetailsinenglish-responses">Responses</h3>
 
@@ -32382,7 +32500,8 @@ Accept: application/json
 
 *Catalogue Details in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32453,6 +32572,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="cataloguedetailsinhindi-responses">Responses</h3>
 
@@ -32511,7 +32631,8 @@ Accept: application/json
 
 *Painting Details in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32527,6 +32648,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="paintingdetailsinenglish-responses">Responses</h3>
 
@@ -32585,7 +32707,8 @@ Accept: application/json
 
 *Painting Details in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32601,6 +32724,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="paintingdetailsinhindi-responses">Responses</h3>
 
@@ -32659,7 +32783,8 @@ Accept: application/json
 
 *UNESCO Details in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -32676,6 +32801,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="unescodetailsinenglish-responses">Responses</h3>
 
@@ -32752,7 +32878,8 @@ Accept: application/json
 
 *UNESCO Details in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 [
@@ -32769,6 +32896,7 @@ Accept: application/json
   }
 ]
 ```
+</details>
 
 <h3 id="unescodetailsinhindi-responses">Responses</h3>
 
@@ -32845,7 +32973,8 @@ Accept: application/json
 
 *Musical Details in English*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32864,6 +32993,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="musicaldetailsinenglish-responses">Responses</h3>
 
@@ -32922,7 +33052,8 @@ Accept: application/json
 
 *Musical Details in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -32941,6 +33072,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="musicaldetailsinhindi-responses">Responses</h3>
 
@@ -33025,7 +33157,8 @@ Accept: application/json
 
 *Intangible Cultural Heritage Details in Hindi*
 
-> Example responses
+<details>
+  <summary> > Response Example</summary>
 
 ```json
 {
@@ -33044,6 +33177,7 @@ Accept: application/json
   "facets": []
 }
 ```
+</details>
 
 <h3 id="intangibleculturalheritagedetailsinhindi-responses">Responses</h3>
 
